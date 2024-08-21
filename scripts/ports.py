@@ -96,7 +96,7 @@ def main() -> None:
     Returns:
         None
     """
-    host = input('Enter the host IP address: [127.0.0.1]') or '127.0.0.1'
+    host = input('🖥 Enter the host IP address: [127.0.0.1] ') or '127.0.0.1'
     open_ports = scan_ports(host, 65535)
     if not open_ports:
         print('❌ No open ports found.')
